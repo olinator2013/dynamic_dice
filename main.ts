@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(randint(1, 6))
+    basic.showNumber(randint(1, max))
 })
 input.onButtonPressed(Button.AB, function () {
     max = 0
